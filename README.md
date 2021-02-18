@@ -25,8 +25,7 @@ Esta función es para sumar multiples numeros.
 En este caso se tienen que mandar en el cuerpo un json con esta estrectura:
 
 {
-    "numbers":[ 1, 2, 3 ,5,67],
-    "x":3
+    "numbers":[ 1, 2, 3 ,5,67]
 }
 
 /api/avrg
