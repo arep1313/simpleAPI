@@ -14,6 +14,7 @@ La api tiene 3 posibles llamadas GET
 /api/addtwo
 Esta función es para sumar DOS numeros
 En este caso se tienen que mandar en el cuerpo un json con esta estrectura:
+
 {
     "number1":3,
     "number2":4
@@ -22,6 +23,7 @@ En este caso se tienen que mandar en el cuerpo un json con esta estrectura:
 /api/add
 Esta función es para sumar multiples numeros.
 En este caso se tienen que mandar en el cuerpo un json con esta estrectura:
+
 {
     "numbers":[ 1, 2, 3 ,5,67],
     "x":3
@@ -30,6 +32,7 @@ En este caso se tienen que mandar en el cuerpo un json con esta estrectura:
 /api/avrg
 Esta función es para obtener el promedio de multiples numeros. 
 En este caso se tienen que mandar en el cuerpo un json con esta estrectura:
+
 {
     "numbers":[ 1, 2, 3 ,5,6,7]
 }
